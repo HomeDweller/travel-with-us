@@ -1,0 +1,61 @@
+footer {
+    background-color: $blackColor;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 50px;
+
+    span {
+        font-family: $fontJosefinSans;
+        color: $whiteColor;
+        line-height: 1.4;
+        letter-spacing: 0.2em;
+        margin: 8px 0 20px;
+    }
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social__item {
+
+    .icon {
+        fill: $whiteColor;
+        width: 32px;
+        height: 32px;
+    }
+
+}
+
+
+
+.social__item:nth-child(1):hover {
+    .icon {
+        fill: $lessLightBlueColor;
+    }
+}
+
+.social__item:nth-child(2):hover {
+    .icon {
+        fill: $blueColor;
+    }
+}
+
+.social__item:nth-child(3):hover {
+    .icon {
+        fill: $lightBlueColor;
+    }
+}
+
+.social__item:nth-child(4):hover {
+    .icon {
+        fill: $redColor;
+    }
+}
+
+.social__item:nth-child(5):hover {
+    .icon {
+        fill: $redColor;
+    }
+}

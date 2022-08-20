@@ -1,0 +1,28 @@
+.book {
+    background-image: url("../img/bg-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ccc;
+    padding: 120px 18px;
+}
+
+.book--now {
+    background-image: url("../img/bg-4.jpg");
+}
+
+.container {
+    background-color: $transparentGreyColor;
+    padding: 44px 32px;
+
+    h6 {
+        font-family: $fontAleo;
+        color: $whiteColor;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 1.4;
+        letter-spacing: 0.1em;
+        margin-bottom: 16px;
+    }
+
+
+}

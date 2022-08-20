@@ -1,0 +1,23 @@
+.WhatTouristsSay {
+    background-image: url("../img/bg-5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 18px;
+
+    img {
+        width: 280px;
+    }
+
+    .container {
+        background-color: $darkGreyColor;
+    }
+}
+
+p {
+    .icon {
+        fill: $lightBlueColor;
+        width: 20px;
+        height: 60px;
+
+    }
+}

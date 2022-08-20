@@ -1,0 +1,49 @@
+.steps {
+    background-color: $darkGreyColor;
+}
+
+.actions {
+    display: grid;
+    grid-template-columns: 220px;
+    align-items: center;
+    padding: 36px 46px;
+
+    .icon {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 20px;
+    }
+}
+
+.actions__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+
+    h6 {
+        color: $whiteColor;
+        font-family: $fontAleo;
+        font-size: 36px;
+        line-height: 1.1;
+
+    }
+}
+
+.actions__item:nth-child(1) {
+    .icon {
+        fill: $lightBlueColor;
+    }
+}
+
+.actions__item:nth-child(2) {
+    .icon {
+        fill: $redColor;
+    }
+}
+
+.actions__item:nth-child(3) {
+    .icon {
+        fill: $blueColor;
+    }
+}
