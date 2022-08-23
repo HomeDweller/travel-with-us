@@ -1,11 +1,16 @@
 .steps {
     background-color: $darkGreyColor;
+
+    img {
+        display: none;
+    }
 }
 
 .actions {
     display: grid;
     grid-template-columns: 220px;
     align-items: center;
+    justify-content: center;
     padding: 36px 46px;
 
     .icon {

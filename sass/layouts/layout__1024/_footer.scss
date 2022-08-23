@@ -3,11 +3,6 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 60px 50px;
-    align-items: center;
-
-    h3 {
-        font-size: 24px;
-    }
 
     span {
         font-family: $fontJosefinSans;
@@ -24,7 +19,6 @@ footer {
 }
 
 .social__item {
-    margin-right: 32px;
 
     .icon {
         fill: $whiteColor;
@@ -34,16 +28,7 @@ footer {
 
 }
 
-.social__item:last-child {
-    margin: 0;
-}
 
-.social__item:hover {
-    .icon {
-        width: 49px;
-        height: 56px;
-    }
-}
 
 .social__item:nth-child(1):hover {
     .icon {

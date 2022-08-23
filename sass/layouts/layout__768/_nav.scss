@@ -1,0 +1,40 @@
+.nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 33px 0;
+}
+
+.nav__bar {
+    display: unset;
+    justify-content: unset;
+    align-items: unset;
+    width: fit-content;
+    height: fit-content;
+
+    h3 {
+        height: fit-content;
+        left: unset;
+        top: unset;
+        position: relative;
+
+    }
+
+
+}
+
+.menu-btn {
+    display: none;
+}
+
+.links {
+    display: flex;
+    padding: 0;
+    width: fit-content;
+    flex-direction: row;
+    gap: 40px;
+
+    a {
+        font-size: $baseFontSize;
+        padding: 0;
+    }
+}

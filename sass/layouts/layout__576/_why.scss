@@ -1,0 +1,27 @@
+.images {
+    display: flex;
+    gap: 24px;
+
+    img {
+        width: 258px;
+        height: 162px;
+    }
+
+    img:nth-child(2) {
+        position: relative;
+        width: 258px;
+        height: 162px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+}
+
+.text-container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}

@@ -3,11 +3,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #ccc;
-    padding: 0 18px 80px;
+    padding: 60px 18px 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
 
+}
+
+.images {
     img {
         width: 280px;
     }
@@ -22,15 +25,8 @@
         clip: rect(0 0 0 0);
         overflow: hidden;
     }
-
-
 }
 
-.text__container {
+.text-container {
     margin-bottom: 20px;
-
-
-
-
-
 }

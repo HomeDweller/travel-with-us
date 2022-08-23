@@ -24,7 +24,7 @@
 <body>
     <h1 class="visually-hidden">For SEO</h1>
     <main>
-        <section class="pseudo__header">
+        <section class="pseudo__header" id="fuckYou">
             <h2>Bhromaon</h2>
             <h4>Safe Travel Anywhere</h4>
             <div class="input">
@@ -46,34 +46,26 @@
         <div class="nav">
             <div class="nav__bar">
                 <h3>Bhromaon</h3>
-                <button class="hamburger hamburger--collapse" type="button">
-                    <span class="hamburger-box">
-                        <span class="hamburger-inner"></span>
-                    </span>
-                </button>
+                <div class="hamburger" onclick="myFunction()">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
             </div>
-            <!--nav isn't visible yet-->
-            <nav>
-                <ul class="menu">
-                    <li class="menu__item">
-                        <a href="#">Who We Are</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#">What We Do</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#">Travel With Us</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#">Contact Us</a>
-                    </li>
-                </ul>
+            <nav class="links" id="links">
+                <a href="#">Who We Are</a>
+                <a href="#">What We Do</a>
+                <a href="#">Travel With Us</a>
+                <a href="#">Contact Us</a>
+
             </nav>
         </div>
         <section class="why">
-            <img src="/img/Image-3.jpg" alt="house near lake">
-            <img src="/img/Image-2.jpg" alt="beautiful mountains">
-            <div class="text__container">
+            <div class="images">
+                <img src="/img/Image-3.jpg" alt="house near lake">
+                <img src="/img/Image-2.jpg" alt="beautiful mountains">
+            </div>
+            <div class="text-container">
                 <h2>Why Choose Us</h2>
                 <p>
                     Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the
@@ -86,6 +78,7 @@
             <button class="button">Explore Places </button>
         </section>
         <section class="steps">
+            <img src="./img/Line.png" alt="Just a decorative line">
             <ul class="actions">
                 <li class="actions__item">
                     <svg class="icon">
@@ -131,7 +124,7 @@
         </section>
         <section class="WhatTouristsSay">
             <h2>What Our Tourists Say</h2>
-            <img src="/img/Image-1.jpg" alt="a guy on top of the mountain">
+            <img src="./img/Image-1.jpg" alt="a guy on top of the mountain">
             <div class="container">
                 <h5>Sam Sumon</h5>
                 <p>
@@ -190,6 +183,7 @@
             </li>
         </ul>
     </footer>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

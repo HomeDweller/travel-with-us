@@ -1,0 +1,38 @@
+.why {
+    display: grid;
+    grid-template-columns: 53vw 44vw;
+}
+
+.images {
+    grid-column-start: 2;
+    flex-direction: column;
+
+    img {
+        width: 350px;
+        height: 220px;
+    }
+
+    img:nth-child(2) {
+        width: 350px;
+        height: 220px;
+        margin-left: 3vw;
+
+    }
+
+
+}
+
+.text-container {
+    width: 53vw;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    align-items: flex-start;
+
+    p {
+        text-align: left;
+    }
+
+    .button {
+        grid-row-start: 1;
+    }
+}

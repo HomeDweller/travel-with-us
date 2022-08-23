@@ -1,0 +1,21 @@
+.nav__bar {
+    display: inline;
+    height: 60px;
+
+    h3 {
+        width: fit-content;
+        left: calc(50% - 168px/2);
+        top: 20px;
+        position: relative;
+    }
+
+
+}
+
+.menu-btn {
+    position: relative;
+    margin: 0;
+    left: calc(94% - 24px);
+    top: -12px;
+
+}
