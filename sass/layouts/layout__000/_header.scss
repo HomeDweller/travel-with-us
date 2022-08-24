@@ -37,6 +37,7 @@ h4 {
     color: $darkGreyColor;
     font-family: $fontJosefinSans;
     line-height: 1.4;
+    letter-spacing: 0;
     opacity: 1;
 }
 
@@ -57,25 +58,26 @@ h4 {
     button {
         display: flex;
         align-items: center;
-        width: 140px;
-        height: 52px;
-        padding: 19px 0;
+        padding: 16px 8px;
         background-color: $lightBlueColor;
         border: 0;
-        color: $whiteColor;
-        font-style: normal;
-        font-family: $fontAleo;
-        font-weight: 400;
-        line-height: 1.4;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
+
+        span {
+            color: $whiteColor;
+            font-style: normal;
+            font-family: $fontAleo;
+            font-weight: 400;
+            line-height: 1.4;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
 
 
         .icon {
             width: 16px;
             height: 16px;
             fill: $whiteColor;
-            margin: -4px 4px;
+            margin-right: 8px;
         }
     }
 }

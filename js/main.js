@@ -1,21 +1,18 @@
-function myFunction() {
-    var x = document.getElementById("links");
-    if (x.style.display === "flex") {
-        x.style.display = "?";
-    } else {
-        x.style.display = "flex";
-    }
+const hamburger = document.querySelector(".hamburger");
+const links = document.querySelector(".links");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    links.classList.toggle("active");
 }
 
-const menuBtn = document.querySelector('.menu-btn');
-let menuOpen = false;
-menuBtn.addEventListener('click', () => {
-    if (!menuOpen) {
-        menuBtn.classList.add('open');
-        menuOpen = true;
-    } else {
-        menuBtn.classList.remove('open');
-        menuOpen = false;
-    }
+const link = document.querySelectorAll(".link");
 
-});
+link.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    links.classList.remove("active");
+}

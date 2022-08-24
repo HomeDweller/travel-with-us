@@ -14,6 +14,10 @@
     @import "layouts/layout__1024/index";
 }
 
-@media only screen and (min-width: 1200px) {
-    @import "layouts/layout__1200/index";
+@media only screen and (min-width: 1360px) {
+    @import "layouts/layout__1360/index";
+}
+
+@media only screen and (min-width: 1920px) {
+    @import "layouts/layout__1920/index";
 }

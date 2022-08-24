@@ -7,7 +7,13 @@ h4 {
     justify-content: space-between;
     width: 94vw;
 
+    ::-webkit-input-placeholder {
+        letter-spacing: 0.2em;
+    }
 
+    button {
+        padding: 16px 24px;
+    }
 }
 
 .scroll {
