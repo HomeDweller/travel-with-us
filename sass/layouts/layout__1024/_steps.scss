@@ -1,20 +1,18 @@
 .steps {
+    position: relative;
     display: flex;
     flex-direction: column;
-    height: 306px;
+    padding: 87px 0;
 
-    img {
-        left: calc(35vw - 163px);
-        opacity: 0.5;
-        position: absolute;
-        width: 61vw;
-    }
+
 }
 
 .actions {
-
     gap: 11vw;
     grid-template-columns: 220px 220px 220px;
     padding: 46px 36px;
 
+    .actions__item {
+        margin-bottom: 0;
+    }
 }

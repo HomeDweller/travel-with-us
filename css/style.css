@@ -130,7 +130,7 @@ table {
 }
 
 .pseudo__header {
-  background-image: url("../img/bg-1.jpg");
+  background-image: url("../img/bg-1-min.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #ccc;
@@ -310,7 +310,7 @@ h4 {
 }
 
 .why {
-  background-image: url("../img/bg-2.jpg");
+  background-image: url("../img/bg-2-min.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #ccc;
@@ -384,7 +384,7 @@ h4 {
 }
 
 .book {
-  background-image: url("../img/bg-3.jpg");
+  background-image: url("../img/bg-3-min.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #ccc;
@@ -392,7 +392,7 @@ h4 {
 }
 
 .book--now {
-  background-image: url("../img/bg-4.jpg");
+  background-image: url("../img/bg-4-min.jpg");
 }
 
 .container {
@@ -410,7 +410,7 @@ h4 {
 }
 
 .WhatTouristsSay {
-  background-image: url("../img/bg-5.jpg");
+  background-image: url("../img/bg-5-min.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 60px 18px;
@@ -658,7 +658,7 @@ h5 {
   .nav {
     flex-direction: column;
     align-items: center;
-    padding: 33px 0;
+    padding: 32px 0;
   }
   .nav__bar {
     display: unset;
@@ -747,20 +747,18 @@ h5 {
     grid-row-start: 1;
   }
   .steps {
+    position: relative;
     display: flex;
     flex-direction: column;
-    height: 306px;
-  }
-  .steps img {
-    left: calc(35vw - 163px);
-    opacity: 0.5;
-    position: absolute;
-    width: 61vw;
+    padding: 87px 0;
   }
   .actions {
     gap: 11vw;
     grid-template-columns: 220px 220px 220px;
     padding: 46px 36px;
+  }
+  .actions .actions__item {
+    margin-bottom: 0;
   }
   .container {
     width: 53vw;
@@ -936,11 +934,15 @@ a:active {
 }
 @media only screen and (min-width: 1920px) {
   .input {
-    width: 47vw;
+    width: 33vw;
   }
   .nav {
     flex-direction: row;
-    gap: 38vw;
+    gap: 27vw;
+    padding: 32px 17vw;
+  }
+  .why {
+    padding: 124px 16vw;
   }
   .images img:nth-child(2) {
     margin-left: 7vw;
