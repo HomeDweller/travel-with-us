@@ -410,7 +410,7 @@ h4 {
 }
 
 .WhatTouristsSay {
-  background-image: url("../img/bg-5-min.jpg");
+  background-image: url("../img/bg-5.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 60px 18px;
@@ -735,7 +735,6 @@ h5 {
     margin-left: 3vw;
   }
   .text-container {
-    width: 53vw;
     grid-column-start: 1;
     grid-row-start: 1;
     align-items: flex-start;
@@ -943,9 +942,11 @@ a:active {
   }
   .why {
     padding: 124px 16vw;
+    grid-template-columns: 33vw 22vw;
+    column-gap: 3vw;
   }
   .images img:nth-child(2) {
-    margin-left: 7vw;
+    margin-left: 3.6vw;
   }
   .steps img {
     left: calc(35vw - 226px);
@@ -954,13 +955,24 @@ a:active {
     width: 61vw;
   }
   .container {
-    width: 40vw;
+    width: 33.75vw;
+  }
+  .book {
+    padding: 0 15.6vw;
   }
   .book--now .container {
-    margin-left: 57vw;
+    margin-left: 35vw;
+  }
+  .WhatTouristsSay {
+    padding: 120px 15.6vw 180px;
+  }
+  .WhatTouristsSay img {
+    width: 440px;
+    height: 280px;
   }
   .WhatTouristsSay .container {
-    width: 58vw;
+    height: 280px;
+    width: 45vw;
   }
 }
 

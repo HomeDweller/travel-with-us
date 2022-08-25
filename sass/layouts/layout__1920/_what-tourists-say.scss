@@ -1,4 +1,14 @@
-.WhatTouristsSay .container {
-    width: 58vw;
+.WhatTouristsSay {
+    padding: 120px 15.6vw 180px;
 
+    img {
+        width: 440px;
+        height: 280px;
+    }
+
+    .container {
+        height: 280px;
+        width: 45vw;
+
+    }
 }

@@ -1,11 +1,13 @@
 .why {
     padding: 124px 16vw;
+    grid-template-columns: 33vw 22vw;
+    column-gap: 3vw;
 }
 
 .images {
 
     img:nth-child(2) {
-        margin-left: 7vw;
+        margin-left: 3.6vw;
 
     }
 
